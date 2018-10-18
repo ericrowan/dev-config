@@ -53,6 +53,7 @@ rules:
 
   # Name Formats
   class-name-format: 0
+    - convention: strictbem
   function-name-format: 1
   id-name-format: 0
   mixin-name-format: 0
@@ -69,11 +70,11 @@ rules:
   hex-length: 0
   hex-notation: 1
   indentation: 1
-  leading-zero: 1
+  leading-zero: 0
   max-line-length: 0
   max-file-line-count: 0
   nesting-depth: 1
-  property-sort-order: 1
+  property-sort-order: 0
   pseudo-element: 1
   quotes: 1
   shorthand-values: 1
