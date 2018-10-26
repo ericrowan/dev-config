@@ -1,0 +1,72 @@
+{
+  "JavaScript": {
+    "beautifiers": [
+      "Prettier", "Pretty Diff", "JS-Beautify", "ESLint"
+    ],
+    "indent_size": "2",
+    "remove_trailing_whitespace": true
+  },
+  "CSS": {
+    "beautifiers": [
+      "Prettier", "Pretty Diff", "JS-Beautify"
+    ],
+    "end_with_newline": true,
+    "indent_size": "2",
+    "newline_between_rules": true,
+    "no_leading_zero": false,
+    "selector_separator_newline": true
+  },
+  "HTML": {
+    "beautifiers": [
+      "Pretty Diff", "JS-Beautify"
+    ],
+    "end_with_newline": true,
+    "indent_size": "2",
+    "indent_inner_html": true
+  },
+  "Handlebars": {
+    "beautifiers": [
+      "Pretty Diff", "JS-Beautify"
+    ],
+    "end_with_newline": true,
+    "indent_size": "2",
+    "indent_inner_html": true
+  },
+  "JSON": {
+    "beautifiers": [
+      "Prettier", "Pretty Diff", "JS-Beautify"
+    ],
+    "end_with_comma": false,
+    "indent_size": "2",
+    "newline_between_rules": true,
+    "no_leading_zero": false
+  },
+  "Markdown": {
+    "beautifiers": ["Prettier"],
+    "indent_size": "4",
+    "indent_style": "tab",
+    "wrap_prose": "always"
+  },
+  "SCSS": {
+    "beautifiers": [
+      "Prettier", "Pretty Diff"
+    ],
+    "end_with_newline": true,
+    "end_with_semicolon": true,
+    "indent_size": "2",
+    "indent_style": "space",
+    "newline_between_rules": true,
+    "no_leading_zero": false
+  },
+  "Twig": {
+    "beautifiers": ["Pretty Diff"],
+    "end_with_newline": true,
+    "indent_size": "2",
+    "indent_style": "space"
+  },
+  "Vue": {
+    "beautifiers": ["Prettier"],
+    "indent_size": "2",
+    "indent_style": "space"
+  }
+}
